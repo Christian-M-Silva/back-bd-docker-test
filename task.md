@@ -1,0 +1,17 @@
+- [ ] Criar a estrutura back-end com Adonis Js
+- [ ] Configurar o controller chamado user para 2 endpoints:
+    - [ ] Listar tudo
+    - [ ] Cadastrar um valor usando nome
+- [ ] Preparar tudo para migration, em que o bd tenha uma tabela com o campo nome e o bd é o postgreSQL
+- [ ] Rodar tudo para ver se funciona
+- [ ] Criar Dockerfile para o back
+- [ ] Criar o docker-compose
+    - [ ] Add o serviço de back
+        - [ ] Configurar a conexão com o serviço de bd
+        - [ ] Add o comando de inicializar o back para rodar quando o compose iniciar o container
+    - [ ] Add o serviço de bd
+        - [ ] Incluir a imagem do postgreSQL 
+        - [ ] Criar um volume nomeado para persistir os dados
+        - [ ] Ter as variáveis de ambiente para usuário, senha e nome do banco configuradas
+- [ ] Ao rodar docker compose up, todo o ambiente deve iniciar sem precisar de comandos adicionais.
+
