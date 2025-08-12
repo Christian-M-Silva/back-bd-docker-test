@@ -8,11 +8,10 @@
 */
 
 import router from '@adonisjs/core/services/router'
-const UsersController = () => import('#controllers/users_controller')
 
 router
   .group(() => {
-    router.post('', [UsersController, 'store'])
-    router.get('', [UsersController, 'index'])
+    router.post('', '#controllers/users_controller.store')
+    router.get('', '#controllers/users_controller.index')
   })
   .prefix('api/users')

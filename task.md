@@ -1,8 +1,8 @@
 - [x] Criar a estrutura back-end com Adonis Js
 - [x] Criar as rotas
-- [ ] Configurar o controller chamado user para 2 endpoints:
-    - [ ] Listar tudo
-    - [ ] Cadastrar um valor usando nome
+- [x] Configurar o controller chamado user para 2 endpoints:
+    - [x] Listar tudo
+    - [x] Cadastrar um valor usando nome
 - [ ] Preparar tudo para migration, em que o bd tenha uma tabela com o campo nome e o bd é o postgreSQL
 - [ ] Rodar tudo para ver se funciona
 - [ ] Criar Dockerfile para o back
