@@ -1,4 +1,5 @@
-- [ ] Criar a estrutura back-end com Adonis Js
+- [x] Criar a estrutura back-end com Adonis Js
+- [x] Criar as rotas
 - [ ] Configurar o controller chamado user para 2 endpoints:
     - [ ] Listar tudo
     - [ ] Cadastrar um valor usando nome
