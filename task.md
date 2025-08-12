@@ -4,7 +4,7 @@
     - [x] Listar tudo
     - [x] Cadastrar um valor usando nome
 - [x] Preparar tudo para migration, em que o bd tenha uma tabela com o campo nome e o bd é o postgreSQL
-- [ ] Criar Dockerfile para o back
+- [x] Criar Dockerfile para o back
 - [ ] Criar o docker-compose
     - [ ] Add o serviço de back
         - [ ] Configurar a conexão com o serviço de bd
