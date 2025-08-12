@@ -11,14 +11,12 @@ services:
       - db
 
   db:
-    image: postgres:15 #Nesse caso busquei uma imagem no hub
-    environment: # Variaveis que meu container terão, dica: sempre buscar de algum serviço de secret, puipeline, mas nunca no modo hard code
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: mydb
+    image: postgres:14.18
+    env_file:
+      - ./back/.env
     volumes:
-	    - postgres_data:/var/lib/postgresql/data #Informar onde esse serviço irá salvar os dados
+      - postgres_data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
   volumes:
-  postgres_data:
+    postgres_data:
