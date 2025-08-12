@@ -9,6 +9,10 @@
 
 import router from '@adonisjs/core/services/router'
 
+router.get('/', () => {
+  return 'Hello world!!!'
+})
+
 router
   .group(() => {
     router.post('', '#controllers/users_controller.store')
