@@ -3,16 +3,17 @@
 - [x] Configurar o controller chamado user para 2 endpoints:
     - [x] Listar tudo
     - [x] Cadastrar um valor usando nome
-- [ ] Preparar tudo para migration, em que o bd tenha uma tabela com o campo nome e o bd é o postgreSQL
-- [ ] Rodar tudo para ver se funciona
+- [x] Preparar tudo para migration, em que o bd tenha uma tabela com o campo nome e o bd é o postgreSQL
 - [ ] Criar Dockerfile para o back
 - [ ] Criar o docker-compose
     - [ ] Add o serviço de back
         - [ ] Configurar a conexão com o serviço de bd
         - [ ] Add o comando de inicializar o back para rodar quando o compose iniciar o container
+        - [ ] Entender se é aqui que coloca a minha migrations, pois só vai funcionar se eu tiver o bd rodando e para isso preciso iniciar o serviço de bd
     - [ ] Add o serviço de bd
         - [ ] Incluir a imagem do postgreSQL 
         - [ ] Criar um volume nomeado para persistir os dados
-        - [ ] Ter as variáveis de ambiente para usuário, senha e nome do banco configuradas
+        - [ ] Ter as variáveis de ambiente para usuário, senha e nome do banco configuradas ver se aqui é a mesma coisa que está no .env do back
 - [ ] Ao rodar docker compose up, todo o ambiente deve iniciar sem precisar de comandos adicionais.
+- [ ] Testar para ver se está tud funcionando
 
