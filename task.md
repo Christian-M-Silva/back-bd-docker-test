@@ -13,7 +13,8 @@
         - [x] Incluir a imagem do postgreSQL 
         - [x] Criar um volume nomeado para persistir os dados
         - [x] Ter as variáveis de ambiente para usuário, senha e nome do banco configuradas.
-- [ ] Ao rodar docker compose up, todo o ambiente deve iniciar sem precisar de comandos adicionais.
-- [ ] Rodar só o comando ```docker-compose exec back node ace migration:run``` para rodar a migration
+- [x] Rodar só o comando ```docker-compose exec back node ace migration:run``` para rodar a migration
+    - [x] Tentar rodar API na minha máquina  ver se consigo inserir no bd
+- [x] Ao rodar docker compose up, todo o ambiente deve iniciar sem precisar de comandos adicionais.
 - [ ] Testar para ver se está tud funcionando
 

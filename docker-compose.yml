@@ -1,7 +1,7 @@
 services:
   back: 
     build: ./back  
-    container_name: back_docker_test 
+    container_name: back_docker
     restart: always
     env_file:
       - ./back/.env
@@ -12,6 +12,7 @@ services:
 
   db:
     image: postgres:14.18
+    container_name: bd_pg_docker 
     env_file:
       - ./back/.env
     volumes:

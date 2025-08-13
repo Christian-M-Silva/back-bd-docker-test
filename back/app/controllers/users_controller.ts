@@ -8,9 +8,9 @@ export default class UsersController {
   }
 
   async store({ request, response }: HttpContext) {
-    const { name } = request.all()
+    const { nome } = request.all()
     const user = await User.create({
-      name,
+      nome,
     })
     response.status(201).send(user)
   }
